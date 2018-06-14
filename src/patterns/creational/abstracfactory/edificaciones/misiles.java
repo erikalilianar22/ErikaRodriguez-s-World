@@ -3,16 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package patterns.creational.abstracfactory.recursos;
+package patterns.creational.abstracfactory.edificaciones;
 
 /**
  *
  * @author erikav
  */
-public class recursos {
+public class misiles extends edificaciones {
+
+    public misiles() {
+    }
     
-    public void recolectar(){
-    }
-    public void comprar(){
-    }
 }

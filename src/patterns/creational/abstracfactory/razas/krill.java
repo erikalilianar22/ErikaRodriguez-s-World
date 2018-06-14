@@ -10,6 +10,11 @@ package patterns.creational.abstracfactory.razas;
  * @author erikav
  */
 public class krill extends razas {
+
+    public static int getVida() {
+        return 1000;
+    }
+
      public int vida;
      public String recursos;
      public centrodemando centrodemando;

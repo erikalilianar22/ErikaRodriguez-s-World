@@ -17,17 +17,37 @@ public class FactoryRecursos implements AbstractFactory {
 
     @Override
     public razas getrazas(String type) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return null;
     }
 
     @Override
     public recursos getrecursos(String type) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+            switch(type){
+                case "oro":
+                    return new oro();
+                case "plata":
+                    return new plata();
+                case "bronce":
+                    return new bronce();
+                case "madera":
+                    return new madera();
+                case "hierro":
+                    return new hierro();
+                case "lana":
+                    return new lana();
+                case "cuarzo":
+                    return new cuarzo();
+                case "diamante":
+                    return new diamante();
+                case "perla":
+                    return new perla();
+            }
+        return null;
     }
 
     @Override
     public edificaciones getedificaciones(String type) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return null;
     }
     
 }

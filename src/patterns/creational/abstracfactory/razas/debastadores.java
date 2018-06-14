@@ -11,6 +11,11 @@ import patterns.creational.abstracfactory.razas.razas;
  * @author erikav
  */
 public class debastadores extends razas {
+
+    public static int getVida() {
+        return 1000;
+    }
+
      public int vida;
      public String recursos;
      public centrodemando centrodemando;
@@ -35,11 +40,7 @@ public class debastadores extends razas {
         razas debastadores=new debastadores();
         //crear que el centro de mando tenga su propoa vida y recursos
         
-       /* 
-        System.out.println("la raza debastadores tiene: \n "
-                            +"vida inicial:"+debastadores.getVida()+"\n"
-                            +"recursos iniciales: \n"+"oro"+debastadores.getRecursooro()
-                            +"plata"+debastadores.getRecursoplata()+"plata"+debastadores.getRecursobronce());*/
+
         
       //  debastadores.atacar();
         

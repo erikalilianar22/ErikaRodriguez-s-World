@@ -11,29 +11,6 @@ package patterns.creational.abstracfactory.razas;
  */
 public class razas {
 
-    private static int recursomadera() {
-        return recursomadera(100);
-    }
-
-    private static int recursolana() {
-        return recursolana(200);
-    }
-
-    private static int recursohierro() {//asignar valores
-        return recursohierro(300);
-    }
-
-    private static int recursomadera(int i) {//retorna los valores
-        return i;
-    }
-
-    private static int recursolana(int i) {
-        return i;
-    }
-
-    private static int recursohierro(int i) {
-        return i;
-    }
     public int vida;
     public int recursooro;
     public int recursoplata;
@@ -45,6 +22,8 @@ public class razas {
     public int recursodiamante;
     public int recursoperla;
     
+    
+    
     public void recursos(){ 
     }
     public void edificaciones(){
@@ -54,24 +33,91 @@ public class razas {
     public void defender(){
     }
 
-    public int getRecursooro() {
-        return recursooro;
+    
+    
+    public static int recursoperla() {
+        return recursoperla(100);
+    }
+
+    public static int recursooro() {
+        return recursooro(100);
+    }
+
+    public static int recursoplata() {
+        return recursoplata(100);
+    }
+
+    public static int recursobronce() {
+        return recursobronce(100);
+    }
+
+    public static int recursocuarzo() {
+        return recursocuarzo(100);
+    }
+
+    public static int recursodiamante() {
+        return recursodiamante(100);
+    }
+    public static int recursomadera() {
+        return recursomadera(100);
+    }
+
+    public static int recursolana() {
+        return recursolana(100);
+    }
+
+    public static int recursohierro() {//asignar valores
+        return recursohierro(100);
+    }
+
+    public static int recursomadera(int i) {//retorna los valores
+        return i;
+    }
+
+    public static int recursolana(int i) {
+        return i;
+    }
+
+    public static int recursohierro(int i) {
+        return i;
+    }
+    public static int recursooro(int i){
+        return i;
+    }
+        public static int recursoplata(int i){
+        return i;
+    }
+        public static int recursobronce(int i){
+        return i;
+    }
+        public static int recursoperla(int i){
+        return i;
+    }
+    public static int recursodiamante(int i){
+        return i;
+    }
+    public static int recursocuarzo(int i){
+        return i;
+    }
+
+    public static int getRecursooro() {
+        return recursooro();
     }
 
     public void setRecursooro(int recursooro) {
         this.recursooro = recursooro;
     }
 
-    public int getRecursoplata() {
-        return recursoplata;
+    public static int getRecursoplata() {
+        return recursoplata();
     }
 
     public void setRecursoplata(int recursoplata) {
         this.recursoplata = recursoplata;
     }
 
-    public int getRecursobronce() {
-        return recursobronce;
+    public static int getRecursobronce() {
+        return recursobronce();
     }
 
     public void setRecursobronce(int recursobronce) {
@@ -79,24 +125,24 @@ public class razas {
     }
 
     
-    public int getRecursocuarzo() {
-        return recursocuarzo;
+    public static int getRecursocuarzo() {
+        return recursocuarzo();
     }
 
     public void setRecursocuarzo(int recursocuarzo) {
         this.recursocuarzo = recursocuarzo;
     }
 
-    public int getRecursodiamante() {
-        return recursodiamante;
+    public static int getRecursodiamante() {
+        return recursodiamante();
     }
 
     public void setRecursodiamante(int recursodiamante) {
         this.recursodiamante = recursodiamante;
     }
 
-    public int getRecursoperla() {
-        return recursoperla;
+    public static int getRecursoperla() {
+        return recursoperla();
     }
 
     public void setRecursoperla(int recursoperla) {

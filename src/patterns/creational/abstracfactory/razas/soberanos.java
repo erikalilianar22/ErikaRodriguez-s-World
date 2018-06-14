@@ -13,7 +13,7 @@ public class soberanos extends razas {
 
 
     public static int getVida() {
-        return 10000;
+        return 1000;
     }
      public int vida;
      public String recursos;

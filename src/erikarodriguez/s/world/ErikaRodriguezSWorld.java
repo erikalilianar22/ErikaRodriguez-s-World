@@ -18,10 +18,7 @@ import patterns.creational.abstracfactory.razas.soberanos;
  *
  * @author erikav
  */
-public class ErikaRodriguezSWorld {
-
-    private static int raz;
-    
+public class ErikaRodriguezSWorld {    
     
     public static int opciones(String nombre){
         Scanner leer= new Scanner(System.in);
@@ -34,6 +31,7 @@ public class ErikaRodriguezSWorld {
         System.out.println("                                                                      ");
         System.out.println("INGRESE LA OPCION: ");
         int raza= leer.nextInt();
+        System.out.println("                                                                      ");
         if(raza == 1){
             r = new debastadores();
             
@@ -52,11 +50,7 @@ public class ErikaRodriguezSWorld {
                     break;
                                        
                 case 2: 
-                    raz="Krill";/*
-                            System.out.println("la raza krill tiene: \n "
-                            +"vida inicial:"+krill.getVida()+"\n"
-                            +"recursos iniciales: \n"+"cuarzo"+krill.getRecursocuarzo()
-                            +"diamante"+krill.getRecursodiamante()+"perla"+krill.getRecursoperla());*/
+                    raz="Krill";
                     break;
                 case 3: 
                     raz="Soberanos";
@@ -90,10 +84,8 @@ public class ErikaRodriguezSWorld {
 	System.out.println("                                                 ");
 	System.out.println("--INGRESE NOMBRE DEL JUGADOR 1:");
 	String p1n=leer.nextLine(); 
-	System.out.println("                                                 ");
 	System.out.println("--INGRESE NOMBRE DEL JUGADOR 2:");
-	String p2n=leer.nextLine(); 
-	System.out.println("                                                 ");
+	String p2n=leer.nextLine();
         String opcion_raza=raz(p1n);//raza jugador1
         String opcion_raza2=raz(p2n);//raza juador2
         
@@ -104,17 +96,49 @@ public class ErikaRodriguezSWorld {
         p2.raza=opcion_raza2;//asignando raza
         
         
-        System.out.println(p1n+" SU RAZA ES "+opcion_raza);
-        System.out.println(p2n+" SU RAZA ES "+opcion_raza2);
-        
-        
-        if (raz == 3){
-                            System.out.println("la raza soberanos tiene: \n"
-                            +"vida inicial:"+soberanos.getVida()+"\n"
-                            +"recursos iniciales: \n"+"madera: "+soberanos.getRecursomadera()+"\n"
-                            +"lana: "+soberanos.getRecursolana()+"\n"+"hierro: "+soberanos.getRecursohierro());
-
+        System.out.println(p1n+" SU RAZA ES "+opcion_raza+"\n");        
+        if (opcion_raza == "Soberanos"){
+            System.out.println("RAZA SOBERANOS TIENE LOS SIGUIENTES RECURSOS:\n"
+            +"VIDA:"+soberanos.getVida()+"\n"
+            +"RECURSOS \n"+"-MADERA: "+soberanos.getRecursomadera()+"\n"
+            +"-LANA: "+soberanos.getRecursolana()+"\n"+"-HIERRO: "+soberanos.getRecursohierro());
+        }
+        if (opcion_raza == "Debastadores"){
+            System.out.println("LA RAZA DEBASTADORES TIENE LOS SIGUIENTES RECURSOS \n "
+            +"vida inicial:"+debastadores.getVida()+"\n"
+            +"recursos iniciales: \n"+"oro: "+debastadores.getRecursooro()+"\n"
+            +"plata: "+debastadores.getRecursoplata()+"\n"+"bronce: "+debastadores.getRecursobronce());
             
+        }
+        if("Krill".equals(opcion_raza)){
+        System.out.println("la raza krill tiene: \n "
+        +"vida inicial:"+krill.getVida()+"\n"
+        +"recursos iniciales: \n"+"cuarzo"+krill.getRecursocuarzo()
+        +"diamante"+krill.getRecursodiamante()+"perla"+krill.getRecursoperla());
+        }
+        
+        
+        System.out.println(p2n+" SU RAZA ES "+opcion_raza2);
+        System.out.println("                                                                      ");
+        
+        if (opcion_raza == "Soberanos"){
+            System.out.println("la raza soberanos tiene: \n"
+            +"vida inicial:"+soberanos.getVida()+"\n"
+            +"recursos iniciales: \n"+"madera: "+soberanos.getRecursomadera()+"\n"
+            +"lana: "+soberanos.getRecursolana()+"\n"+"hierro: "+soberanos.getRecursohierro());
+        }
+        if (opcion_raza == "Debastadores"){
+            System.out.println("la raza debastadores tiene: \n "
+            +"vida inicial:"+debastadores.getVida()+"\n"
+            +"recursos iniciales: \n"+"oro"+debastadores.getRecursooro()
+            +"plata"+debastadores.getRecursoplata()+"plata"+debastadores.getRecursobronce());
+            
+        }
+        if("Krill".equals(opcion_raza)){
+        System.out.println("la raza krill tiene: \n "
+        +"vida inicial:"+krill.getVida()+"\n"
+        +"recursos iniciales: \n"+"cuarzo"+krill.getRecursocuarzo()
+        +"diamante"+krill.getRecursodiamante()+"perla"+krill.getRecursoperla());
         }
 
         
