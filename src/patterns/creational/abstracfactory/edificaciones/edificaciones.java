@@ -9,6 +9,6 @@ package patterns.creational.abstracfactory.edificaciones;
  *
  * @author erikav
  */
-public class edificaciones {
-    
+public class edificaciones extends FactoryEdificaciones {
+ 
 }

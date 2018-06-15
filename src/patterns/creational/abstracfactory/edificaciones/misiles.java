@@ -11,6 +11,10 @@ package patterns.creational.abstracfactory.edificaciones;
  */
 public class misiles extends edificaciones {
 
+    public static void add() {
+        System.out.println("se han creado misiles");
+    }
+
     public misiles() {
     }
     

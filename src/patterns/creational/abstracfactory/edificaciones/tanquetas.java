@@ -11,6 +11,11 @@ package patterns.creational.abstracfactory.edificaciones;
  */
 public class tanquetas extends edificaciones {
 
+    public static void add() {
+        System.out.println(" se ha creado una tanqueta");
+    
+    }
+
     public tanquetas() {
     }
     

@@ -13,12 +13,12 @@ import patterns.creational.abstracfactory.recursos.recursos;
  *
  * @author erikav
  */
-public class FactoryEdificaciones implements AbstractFactory {
-
+public class FactoryEdificaciones implements AbstractFactory{
+    
     @Override
     public razas getrazas(String type) {
         return null;
-    }
+}
 
     @Override
     public recursos getrecursos(String type) {

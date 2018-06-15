@@ -5,13 +5,19 @@
  */
 package patterns.creational.abstracfactory.edificaciones;
 
+import patterns.creational.abstracfactory.razas.razas;
+
 /**
  *
  * @author erikav
  */
 public class avionBorbandero extends edificaciones {
 
-    public avionBorbandero() {
+    public static void add() {
+        System.out.println("se ha creado un avion borbandero");
     }
+    
+    public avionBorbandero() {
+}
     
 }

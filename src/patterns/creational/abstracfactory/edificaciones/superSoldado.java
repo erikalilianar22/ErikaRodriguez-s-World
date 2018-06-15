@@ -11,6 +11,10 @@ package patterns.creational.abstracfactory.edificaciones;
  */
 public class superSoldado extends edificaciones {
 
+    public static void add() {
+        System.out.println("se ha creado un super soldado");
+    }
+
     public superSoldado() {
     }
     

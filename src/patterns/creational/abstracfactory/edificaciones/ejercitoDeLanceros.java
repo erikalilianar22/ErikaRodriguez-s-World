@@ -11,6 +11,10 @@ package patterns.creational.abstracfactory.edificaciones;
  */
 public class ejercitoDeLanceros extends edificaciones {
 
+    public static void add() {
+        System.out.println("se ha creado lanceros");
+    }
+
     public ejercitoDeLanceros() {
     }
     

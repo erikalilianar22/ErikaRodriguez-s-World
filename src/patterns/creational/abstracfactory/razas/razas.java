@@ -36,38 +36,38 @@ public class razas {
     
     
     public static int recursoperla() {
-        return recursoperla(100);
+        return recursoperla(3000);
     }
 
     public static int recursooro() {
-        return recursooro(100);
+        return recursooro(5000);
     }
 
     public static int recursoplata() {
-        return recursoplata(100);
+        return recursoplata(4000);
     }
 
     public static int recursobronce() {
-        return recursobronce(100);
+        return recursobronce(3000);
     }
 
     public static int recursocuarzo() {
-        return recursocuarzo(100);
+        return recursocuarzo(5000);
     }
 
     public static int recursodiamante() {
-        return recursodiamante(100);
+        return recursodiamante(4000);
     }
     public static int recursomadera() {
-        return recursomadera(100);
+        return recursomadera(5000);
     }
 
     public static int recursolana() {
-        return recursolana(100);
+        return recursolana(3000);
     }
 
     public static int recursohierro() {//asignar valores
-        return recursohierro(100);
+        return recursohierro(4000);
     }
 
     public static int recursomadera(int i) {//retorna los valores

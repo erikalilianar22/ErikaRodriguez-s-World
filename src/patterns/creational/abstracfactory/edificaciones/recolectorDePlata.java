@@ -11,6 +11,10 @@ package patterns.creational.abstracfactory.edificaciones;
  */
 public class recolectorDePlata extends edificaciones {
 
+    public static void add() {
+        System.out.println("se ha creado un recolector de plata");
+    }
+
     public recolectorDePlata() {
     }
     
